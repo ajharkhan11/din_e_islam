@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="more_horizontal_cell" id="gTV-IL-0wX" customClass="HorizontalCollectionViewCell" customModule="din_e_islam" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="60" height="88"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="60" height="88"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0g8-fb-wzi">
+                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="WRx-OQ-BBQ"/>
+                            <constraint firstAttribute="width" secondItem="0g8-fb-wzi" secondAttribute="height" multiplier="1:1" id="sdj-8B-mfE"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsR-zG-oFx">
+                        <rect key="frame" x="0.0" y="68" width="60" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="rQz-di-7j4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="0g8-fb-wzi" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="6Nb-nS-VBE"/>
+                <constraint firstAttribute="bottom" secondItem="dsR-zG-oFx" secondAttribute="bottom" id="Ihp-tv-RCs"/>
+                <constraint firstItem="dsR-zG-oFx" firstAttribute="top" secondItem="0g8-fb-wzi" secondAttribute="bottom" constant="8" id="ggb-wP-YqE"/>
+                <constraint firstItem="0g8-fb-wzi" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="tJn-89-k4Y"/>
+                <constraint firstItem="dsR-zG-oFx" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="tvn-qk-rJI"/>
+            </constraints>
+            <size key="customSize" width="60" height="88"/>
+            <connections>
+                <outlet property="horizontal_image" destination="0g8-fb-wzi" id="tTm-Lp-ot2"/>
+                <outlet property="horizontal_text" destination="dsR-zG-oFx" id="4z3-nA-Jky"/>
+            </connections>
+            <point key="canvasLocation" x="140.57971014492756" y="150.66964285714286"/>
+        </collectionViewCell>
+    </objects>
+</document>

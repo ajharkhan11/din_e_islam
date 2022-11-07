@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1232414",
+        "seq_num" : 1,
+      "title": "Bath(Ghusal)",
+      "description": "How to Bath(Ghusal)",
+      "image_name" : "ghusal"
+    },
+    {
+        "id": "1232415",
+        "seq_num" : 2,
+      "title": "Vuju",
+      "description": "How to perform Vaju",
+      "image_name" : "vaju"
+    },
+    {
+        "id": "1232416",
+      "title": "Pray",
+      "seq_num" : 3,
+      "description": "How to pray",
+      "image_name" : "namaz"
+    },
+    {
+        "id": "1232417",
+        "seq_num" : 4,
+      "title": "Namaz Ke Faraij",
+      "description": "Namaz Ke Faraij",
+      "image_name" : "namaz"
+    },
+    {
+        "id": "1232418",
+        "seq_num" : 5,
+      "title": "Ghusal to Mayat(dead-body)",
+      "description": "How to give Ghusal to Mayat(dead-body)",
+      "image_name" : "ghusal"
+    }
+  ]

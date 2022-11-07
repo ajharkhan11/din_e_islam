@@ -1,0 +1,104 @@
+{
+  "Vertical": [
+      {
+        "id": "1232412",
+        "seq_num": 0,
+        "title": "My Profile",
+        "description": "My Profile",
+        "image_name": "ghusal"
+      },
+    {
+      "id": "1232413",
+      "seq_num": 1,
+      "title": "Theme",
+      "description": "Select The theme color",
+      "image_name": "ghusal"
+    },
+    {
+      "id": "1232415",
+      "seq_num": 2,
+      "title": "Appearance",
+      "description": "Select Appearance",
+      "image_name": "vaju"
+    },
+    {
+      "id": "1232416",
+      "title": "Snooze Time",
+      "seq_num": 3,
+      "description": "The number of minutes to remind you again later for prayer, like the functionality of an alarm clock",
+      "image_name": "namaz"
+    },
+    {
+      "id": "1232417",
+      "seq_num": 4,
+      "title": "Send Us Feedback",
+      "description": "Namaz Ke Faraij",
+      "image_name": "namaz"
+    },
+    {
+      "id": "1232418",
+      "seq_num": 5,
+      "title": "Rate this App",
+      "description": "Rate this App on App Store",
+      "image_name": "ghusal"
+    },
+    {
+      "id": "1232418",
+      "seq_num": 6,
+      "title": "Play Adan",
+      "description": "Play Adan by different Molanas",
+      "image_name": "ghusal"
+    }
+  ],
+  "Horizontal": [
+    {
+      "id": "1232418",
+      "seq_num": 1,
+      "title": "99 Names",
+      "description": "99 Names of Allah",
+      "image_name": "ghusal"
+    },
+    {
+      "id": "1232418",
+      "seq_num": 2,
+      "title": "Qibla",
+      "description": "Qibla Direction",
+      "image_name": "ghusal"
+    },
+    {
+      "id": "1232418",
+      "seq_num": 3,
+      "title": "Prayer Times",
+      "description": "Prayer Times",
+      "image_name": "ghusal"
+    },
+    {
+      "id": "1232418",
+      "seq_num": 4,
+      "title": "Yaseen",
+      "description": "Yaseen with Audio and meanings",
+      "image_name": "ghusal"
+    },
+    {
+      "id": "1232418",
+      "seq_num": 5,
+      "title": "Duas",
+      "description": "Multiple Duas with meanings",
+      "image_name": "ghusal"
+    },
+    {
+      "id": "1232418",
+      "seq_num": 6,
+      "title": "Dhikrs",
+      "description": "Dhikrs multiple ",
+      "image_name": "ghusal"
+    },
+    {
+      "id": "1232418",
+      "seq_num": 7,
+      "title": "Kaaba Live",
+      "description": "Dhikrs",
+      "image_name": "ghusal"
+    }
+  ]
+}

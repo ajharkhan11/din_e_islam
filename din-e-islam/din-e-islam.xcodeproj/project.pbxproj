@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD14123A29026761001059FB /* MoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD14123929026761001059FB /* MoreViewModel.swift */; };
+		CD14123E2902DA50001059FB /* VerticalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD14123C2902DA50001059FB /* VerticalCollectionViewCell.swift */; };
+		CD14123F2902DA50001059FB /* VerticalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD14123D2902DA50001059FB /* VerticalCollectionViewCell.xib */; };
+		CD1412422905A225001059FB /* PrayerTimesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1412402905A225001059FB /* PrayerTimesCollectionViewCell.swift */; };
+		CD1412432905A225001059FB /* PrayerTimesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD1412412905A225001059FB /* PrayerTimesCollectionViewCell.xib */; };
+		CD1412452906A5DE001059FB /* PrayerTimesCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1412442906A5DE001059FB /* PrayerTimesCollectionViewModel.swift */; };
+		CD647AD3290DA26200AC6809 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD647AD2290DA26200AC6809 /* Utils.swift */; };
+		CD647AD5290F7FA500AC6809 /* Prayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD647AD4290F7FA400AC6809 /* Prayer.swift */; };
+		CD76AFCE28E1A057003A8254 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD76AFCD28E1A057003A8254 /* AppDelegate.swift */; };
+		CD76AFD028E1A057003A8254 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD76AFCF28E1A057003A8254 /* SceneDelegate.swift */; };
+		CD76AFD228E1A057003A8254 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD76AFD128E1A057003A8254 /* HomeViewController.swift */; };
+		CD76AFD528E1A057003A8254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD76AFD328E1A057003A8254 /* Main.storyboard */; };
+		CD76AFD728E1A059003A8254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD76AFD628E1A059003A8254 /* Assets.xcassets */; };
+		CD76AFDA28E1A059003A8254 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD76AFD828E1A059003A8254 /* LaunchScreen.storyboard */; };
+		CD9713A428E29EE000A593D6 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9713A228E29EE000A593D6 /* HomeTableViewCell.swift */; };
+		CD9713A528E29EE000A593D6 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9713A328E29EE000A593D6 /* HomeTableViewCell.xib */; };
+		CD9713AD28E2AC2400A593D6 /* PrayerTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9713AC28E2AC2400A593D6 /* PrayerTimeViewController.swift */; };
+		CD9713AF28E2E4D900A593D6 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9713AE28E2E4D900A593D6 /* MoreViewController.swift */; };
+		CD9713B228E34A7300A593D6 /* PrayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9713B028E34A7300A593D6 /* PrayerTableViewCell.swift */; };
+		CD9713B328E34A7300A593D6 /* PrayerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9713B128E34A7300A593D6 /* PrayerTableViewCell.xib */; };
+		CD9713B828E34FBC00A593D6 /* PrayerTimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9713B728E34FBC00A593D6 /* PrayerTimeViewModel.swift */; };
+		CD9713C828E359AD00A593D6 /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9713BA28E359AC00A593D6 /* Meta.swift */; };
+		CD9713C928E359AD00A593D6 /* Params.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9713BB28E359AC00A593D6 /* Params.swift */; };
+		CD9713CA28E359AD00A593D6 /* Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9713BC28E359AC00A593D6 /* Offset.swift */; };
+		CD9713CB28E359AD00A593D6 /* Hijri.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9713BD28E359AC00A593D6 /* Hijri.swift */; };
+		CD9713CC28E359AD00A593D6 /* Timings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9713BE28E359AC00A593D6 /* Timings.swift */; };
+		CD9713CD28E359AD00A593D6 /* Designation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9713BF28E359AC00A593D6 /* Designation.swift */; };
+		CD9713CE28E359AD00A593D6 /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9713C028E359AC00A593D6 /* Weekday.swift */; };
+		CD9713CF28E359AD00A593D6 /* Month.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9713C128E359AC00A593D6 /* Month.swift */; };
+		CD9713D028E359AD00A593D6 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9713C228E359AD00A593D6 /* Base.swift */; };
+		CD9713D128E359AD00A593D6 /* Gregorian.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9713C328E359AD00A593D6 /* Gregorian.swift */; };
+		CD9713D228E359AD00A593D6 /* PrayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9713C428E359AD00A593D6 /* PrayerModel.swift */; };
+		CD9713D328E359AD00A593D6 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9713C528E359AD00A593D6 /* Location.swift */; };
+		CD9713D428E359AD00A593D6 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9713C628E359AD00A593D6 /* Date.swift */; };
+		CD9713D528E359AD00A593D6 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9713C728E359AD00A593D6 /* Method.swift */; };
+		CD97141428EB4D3C00A593D6 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97141328EB4D3C00A593D6 /* APIService.swift */; };
+		CD97141728ED3DAA00A593D6 /* GenericTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97141628ED3DAA00A593D6 /* GenericTableViewDataSource.swift */; };
+		CD97141A28EDDC5600A593D6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97141928EDDC5600A593D6 /* HomeViewModel.swift */; };
+		CD97141D28EDDD9400A593D6 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97141C28EDDD9400A593D6 /* HomeModel.swift */; };
+		CD97141F28EDEF2A00A593D6 /* homeList.json in Resources */ = {isa = PBXBuildFile; fileRef = CD97141E28EDEF2A00A593D6 /* homeList.json */; };
+		CDB7F2822914D13B00168165 /* NextPrayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB7F2812914D13B00168165 /* NextPrayerViewController.swift */; };
+		CDB7F2852914D5D500168165 /* NextPrayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB7F2842914D5D500168165 /* NextPrayerViewModel.swift */; };
+		CDFA6FDE28FAEE830027A9F8 /* AJGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA6FDD28FAEE820027A9F8 /* AJGraph.swift */; };
+		CDFA6FE528FC01DB0027A9F8 /* More.json in Resources */ = {isa = PBXBuildFile; fileRef = CDFA6FE428FC01DB0027A9F8 /* More.json */; };
+		CDFA6FEA28FFEF680027A9F8 /* Horizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA6FE728FFEF680027A9F8 /* Horizontal.swift */; };
+		CDFA6FEB28FFEF680027A9F8 /* MoreBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA6FE828FFEF680027A9F8 /* MoreBase.swift */; };
+		CDFA6FEC28FFEF680027A9F8 /* Vertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA6FE928FFEF680027A9F8 /* Vertical.swift */; };
+		CDFA6FEF29001B640027A9F8 /* HorizontalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA6FED29001B640027A9F8 /* HorizontalCollectionViewCell.swift */; };
+		CDFA6FF029001B640027A9F8 /* HorizontalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDFA6FEE29001B640027A9F8 /* HorizontalCollectionViewCell.xib */; };
+		CDFA6FF329001E3D0027A9F8 /* GenericCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA6FF229001E3D0027A9F8 /* GenericCollectionViewDataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD14123929026761001059FB /* MoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewModel.swift; sourceTree = "<group>"; };
+		CD14123C2902DA50001059FB /* VerticalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalCollectionViewCell.swift; sourceTree = "<group>"; };
+		CD14123D2902DA50001059FB /* VerticalCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VerticalCollectionViewCell.xib; sourceTree = "<group>"; };
+		CD1412402905A225001059FB /* PrayerTimesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesCollectionViewCell.swift; sourceTree = "<group>"; };
+		CD1412412905A225001059FB /* PrayerTimesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrayerTimesCollectionViewCell.xib; sourceTree = "<group>"; };
+		CD1412442906A5DE001059FB /* PrayerTimesCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesCollectionViewModel.swift; sourceTree = "<group>"; };
+		CD647AD2290DA26200AC6809 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		CD647AD4290F7FA400AC6809 /* Prayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prayer.swift; sourceTree = "<group>"; };
+		CD76AFCA28E1A057003A8254 /* din-e-islam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "din-e-islam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD76AFCD28E1A057003A8254 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD76AFCF28E1A057003A8254 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD76AFD128E1A057003A8254 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CD76AFD428E1A057003A8254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD76AFD628E1A059003A8254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD76AFD928E1A059003A8254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD76AFDB28E1A059003A8254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9713A228E29EE000A593D6 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		CD9713A328E29EE000A593D6 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		CD9713AC28E2AC2400A593D6 /* PrayerTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerTimeViewController.swift; sourceTree = "<group>"; };
+		CD9713AE28E2E4D900A593D6 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		CD9713B028E34A7300A593D6 /* PrayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTableViewCell.swift; sourceTree = "<group>"; };
+		CD9713B128E34A7300A593D6 /* PrayerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrayerTableViewCell.xib; sourceTree = "<group>"; };
+		CD9713B728E34FBC00A593D6 /* PrayerTimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeViewModel.swift; sourceTree = "<group>"; };
+		CD9713BA28E359AC00A593D6 /* Meta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
+		CD9713BB28E359AC00A593D6 /* Params.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Params.swift; sourceTree = "<group>"; };
+		CD9713BC28E359AC00A593D6 /* Offset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Offset.swift; sourceTree = "<group>"; };
+		CD9713BD28E359AC00A593D6 /* Hijri.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hijri.swift; sourceTree = "<group>"; };
+		CD9713BE28E359AC00A593D6 /* Timings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timings.swift; sourceTree = "<group>"; };
+		CD9713BF28E359AC00A593D6 /* Designation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Designation.swift; sourceTree = "<group>"; };
+		CD9713C028E359AC00A593D6 /* Weekday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weekday.swift; sourceTree = "<group>"; };
+		CD9713C128E359AC00A593D6 /* Month.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Month.swift; sourceTree = "<group>"; };
+		CD9713C228E359AD00A593D6 /* Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		CD9713C328E359AD00A593D6 /* Gregorian.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gregorian.swift; sourceTree = "<group>"; };
+		CD9713C428E359AD00A593D6 /* PrayerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerModel.swift; sourceTree = "<group>"; };
+		CD9713C528E359AD00A593D6 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		CD9713C628E359AD00A593D6 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		CD9713C728E359AD00A593D6 /* Method.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		CD97141328EB4D3C00A593D6 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		CD97141628ED3DAA00A593D6 /* GenericTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableViewDataSource.swift; sourceTree = "<group>"; };
+		CD97141928EDDC5600A593D6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CD97141C28EDDD9400A593D6 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		CD97141E28EDEF2A00A593D6 /* homeList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = homeList.json; sourceTree = "<group>"; };
+		CDB7F2812914D13B00168165 /* NextPrayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPrayerViewController.swift; sourceTree = "<group>"; };
+		CDB7F2842914D5D500168165 /* NextPrayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPrayerViewModel.swift; sourceTree = "<group>"; };
+		CDFA6FDD28FAEE820027A9F8 /* AJGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJGraph.swift; sourceTree = "<group>"; };
+		CDFA6FE428FC01DB0027A9F8 /* More.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = More.json; sourceTree = "<group>"; };
+		CDFA6FE728FFEF680027A9F8 /* Horizontal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Horizontal.swift; sourceTree = "<group>"; };
+		CDFA6FE828FFEF680027A9F8 /* MoreBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreBase.swift; sourceTree = "<group>"; };
+		CDFA6FE928FFEF680027A9F8 /* Vertical.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertical.swift; sourceTree = "<group>"; };
+		CDFA6FED29001B640027A9F8 /* HorizontalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionViewCell.swift; sourceTree = "<group>"; };
+		CDFA6FEE29001B640027A9F8 /* HorizontalCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorizontalCollectionViewCell.xib; sourceTree = "<group>"; };
+		CDFA6FF229001E3D0027A9F8 /* GenericCollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCollectionViewDataSource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD76AFC728E1A057003A8254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD14123B29026767001059FB /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD14123929026761001059FB /* MoreViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		CD76AFC128E1A057003A8254 = {
+			isa = PBXGroup;
+			children = (
+				CD76AFCC28E1A057003A8254 /* din-e-islam */,
+				CD76AFCB28E1A057003A8254 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD76AFCB28E1A057003A8254 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD76AFCA28E1A057003A8254 /* din-e-islam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD76AFCC28E1A057003A8254 /* din-e-islam */ = {
+			isa = PBXGroup;
+			children = (
+				CDB7F2832914D14700168165 /* NextPrayer */,
+				CD9713A928E2AAE500A593D6 /* PrayerTime */,
+				CD9713A828E2AAD600A593D6 /* More */,
+				CD9713A628E29EE600A593D6 /* Home */,
+				CD9713B528E34EE200A593D6 /* Network Layer */,
+				CD76AFCD28E1A057003A8254 /* AppDelegate.swift */,
+				CD76AFCF28E1A057003A8254 /* SceneDelegate.swift */,
+				CD97141628ED3DAA00A593D6 /* GenericTableViewDataSource.swift */,
+				CDFA6FF229001E3D0027A9F8 /* GenericCollectionViewDataSource.swift */,
+				CD647AD2290DA26200AC6809 /* Utils.swift */,
+				CD76AFD328E1A057003A8254 /* Main.storyboard */,
+				CD76AFD628E1A059003A8254 /* Assets.xcassets */,
+				CD76AFD828E1A059003A8254 /* LaunchScreen.storyboard */,
+				CD76AFDB28E1A059003A8254 /* Info.plist */,
+			);
+			path = "din-e-islam";
+			sourceTree = "<group>";
+		};
+		CD9713A628E29EE600A593D6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CD97141B28EDDD8300A593D6 /* Model */,
+				CD9713A728E29EF300A593D6 /* View */,
+				CD97141828EDDC3900A593D6 /* View Model */,
+				CD76AFD128E1A057003A8254 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CD9713A728E29EF300A593D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD9713A228E29EE000A593D6 /* HomeTableViewCell.swift */,
+				CD9713A328E29EE000A593D6 /* HomeTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD9713A828E2AAD600A593D6 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				CDFA6FE128FBFF980027A9F8 /* Model */,
+				CDFA6FF129001B740027A9F8 /* View */,
+				CD14123B29026767001059FB /* View Model */,
+				CD9713AE28E2E4D900A593D6 /* MoreViewController.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		CD9713A928E2AAE500A593D6 /* PrayerTime */ = {
+			isa = PBXGroup;
+			children = (
+				CD9713B928E3507700A593D6 /* Model */,
+				CD9713B428E34A7800A593D6 /* View */,
+				CD9713B628E34F1C00A593D6 /* View Model */,
+				CD9713AC28E2AC2400A593D6 /* PrayerTimeViewController.swift */,
+			);
+			path = PrayerTime;
+			sourceTree = "<group>";
+		};
+		CD9713B428E34A7800A593D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDFA6FDD28FAEE820027A9F8 /* AJGraph.swift */,
+				CD1412402905A225001059FB /* PrayerTimesCollectionViewCell.swift */,
+				CD1412412905A225001059FB /* PrayerTimesCollectionViewCell.xib */,
+				CD9713B028E34A7300A593D6 /* PrayerTableViewCell.swift */,
+				CD9713B128E34A7300A593D6 /* PrayerTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD9713B528E34EE200A593D6 /* Network Layer */ = {
+			isa = PBXGroup;
+			children = (
+				CD97141328EB4D3C00A593D6 /* APIService.swift */,
+			);
+			path = "Network Layer";
+			sourceTree = "<group>";
+		};
+		CD9713B628E34F1C00A593D6 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD1412442906A5DE001059FB /* PrayerTimesCollectionViewModel.swift */,
+				CD9713B728E34FBC00A593D6 /* PrayerTimeViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		CD9713B928E3507700A593D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD647AD4290F7FA400AC6809 /* Prayer.swift */,
+				CD9713C428E359AD00A593D6 /* PrayerModel.swift */,
+				CD9713C628E359AD00A593D6 /* Date.swift */,
+				CD9713BF28E359AC00A593D6 /* Designation.swift */,
+				CD9713C328E359AD00A593D6 /* Gregorian.swift */,
+				CD9713BD28E359AC00A593D6 /* Hijri.swift */,
+				CD9713C228E359AD00A593D6 /* Base.swift */,
+				CD9713C528E359AD00A593D6 /* Location.swift */,
+				CD9713BA28E359AC00A593D6 /* Meta.swift */,
+				CD9713C728E359AD00A593D6 /* Method.swift */,
+				CD9713C128E359AC00A593D6 /* Month.swift */,
+				CD9713BC28E359AC00A593D6 /* Offset.swift */,
+				CD9713BB28E359AC00A593D6 /* Params.swift */,
+				CD9713BE28E359AC00A593D6 /* Timings.swift */,
+				CD9713C028E359AC00A593D6 /* Weekday.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD97141828EDDC3900A593D6 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD97141928EDDC5600A593D6 /* HomeViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		CD97141B28EDDD8300A593D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD97141C28EDDD9400A593D6 /* HomeModel.swift */,
+				CD97141E28EDEF2A00A593D6 /* homeList.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDB7F2832914D14700168165 /* NextPrayer */ = {
+			isa = PBXGroup;
+			children = (
+				CDB7F2812914D13B00168165 /* NextPrayerViewController.swift */,
+				CDB7F2842914D5D500168165 /* NextPrayerViewModel.swift */,
+			);
+			path = NextPrayer;
+			sourceTree = "<group>";
+		};
+		CDFA6FE128FBFF980027A9F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDFA6FE728FFEF680027A9F8 /* Horizontal.swift */,
+				CDFA6FE828FFEF680027A9F8 /* MoreBase.swift */,
+				CDFA6FE928FFEF680027A9F8 /* Vertical.swift */,
+				CDFA6FE428FC01DB0027A9F8 /* More.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDFA6FF129001B740027A9F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD14123C2902DA50001059FB /* VerticalCollectionViewCell.swift */,
+				CD14123D2902DA50001059FB /* VerticalCollectionViewCell.xib */,
+				CDFA6FED29001B640027A9F8 /* HorizontalCollectionViewCell.swift */,
+				CDFA6FEE29001B640027A9F8 /* HorizontalCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD76AFC928E1A057003A8254 /* din-e-islam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD76AFDE28E1A059003A8254 /* Build configuration list for PBXNativeTarget "din-e-islam" */;
+			buildPhases = (
+				CD76AFC628E1A057003A8254 /* Sources */,
+				CD76AFC728E1A057003A8254 /* Frameworks */,
+				CD76AFC828E1A057003A8254 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "din-e-islam";
+			productName = "din-e-islam";
+			productReference = CD76AFCA28E1A057003A8254 /* din-e-islam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD76AFC228E1A057003A8254 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CD76AFC928E1A057003A8254 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CD76AFC528E1A057003A8254 /* Build configuration list for PBXProject "din-e-islam" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD76AFC128E1A057003A8254;
+			productRefGroup = CD76AFCB28E1A057003A8254 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD76AFC928E1A057003A8254 /* din-e-islam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD76AFC828E1A057003A8254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD97141F28EDEF2A00A593D6 /* homeList.json in Resources */,
+				CD76AFDA28E1A059003A8254 /* LaunchScreen.storyboard in Resources */,
+				CD14123F2902DA50001059FB /* VerticalCollectionViewCell.xib in Resources */,
+				CD76AFD728E1A059003A8254 /* Assets.xcassets in Resources */,
+				CD1412432905A225001059FB /* PrayerTimesCollectionViewCell.xib in Resources */,
+				CD9713A528E29EE000A593D6 /* HomeTableViewCell.xib in Resources */,
+				CDFA6FF029001B640027A9F8 /* HorizontalCollectionViewCell.xib in Resources */,
+				CD9713B328E34A7300A593D6 /* PrayerTableViewCell.xib in Resources */,
+				CDFA6FE528FC01DB0027A9F8 /* More.json in Resources */,
+				CD76AFD528E1A057003A8254 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD76AFC628E1A057003A8254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9713D128E359AD00A593D6 /* Gregorian.swift in Sources */,
+				CD9713AF28E2E4D900A593D6 /* MoreViewController.swift in Sources */,
+				CD9713D328E359AD00A593D6 /* Location.swift in Sources */,
+				CDFA6FF329001E3D0027A9F8 /* GenericCollectionViewDataSource.swift in Sources */,
+				CD97141A28EDDC5600A593D6 /* HomeViewModel.swift in Sources */,
+				CD76AFD228E1A057003A8254 /* HomeViewController.swift in Sources */,
+				CDFA6FEF29001B640027A9F8 /* HorizontalCollectionViewCell.swift in Sources */,
+				CD97141728ED3DAA00A593D6 /* GenericTableViewDataSource.swift in Sources */,
+				CD9713B828E34FBC00A593D6 /* PrayerTimeViewModel.swift in Sources */,
+				CD9713C928E359AD00A593D6 /* Params.swift in Sources */,
+				CDB7F2852914D5D500168165 /* NextPrayerViewModel.swift in Sources */,
+				CDFA6FDE28FAEE830027A9F8 /* AJGraph.swift in Sources */,
+				CD9713CB28E359AD00A593D6 /* Hijri.swift in Sources */,
+				CD76AFCE28E1A057003A8254 /* AppDelegate.swift in Sources */,
+				CD647AD3290DA26200AC6809 /* Utils.swift in Sources */,
+				CD9713B228E34A7300A593D6 /* PrayerTableViewCell.swift in Sources */,
+				CD9713CD28E359AD00A593D6 /* Designation.swift in Sources */,
+				CD9713D528E359AD00A593D6 /* Method.swift in Sources */,
+				CDFA6FEA28FFEF680027A9F8 /* Horizontal.swift in Sources */,
+				CD9713A428E29EE000A593D6 /* HomeTableViewCell.swift in Sources */,
+				CD14123E2902DA50001059FB /* VerticalCollectionViewCell.swift in Sources */,
+				CD9713AD28E2AC2400A593D6 /* PrayerTimeViewController.swift in Sources */,
+				CD76AFD028E1A057003A8254 /* SceneDelegate.swift in Sources */,
+				CD1412422905A225001059FB /* PrayerTimesCollectionViewCell.swift in Sources */,
+				CDFA6FEC28FFEF680027A9F8 /* Vertical.swift in Sources */,
+				CD1412452906A5DE001059FB /* PrayerTimesCollectionViewModel.swift in Sources */,
+				CD9713CE28E359AD00A593D6 /* Weekday.swift in Sources */,
+				CD9713D028E359AD00A593D6 /* Base.swift in Sources */,
+				CD9713CF28E359AD00A593D6 /* Month.swift in Sources */,
+				CD9713D428E359AD00A593D6 /* Date.swift in Sources */,
+				CDFA6FEB28FFEF680027A9F8 /* MoreBase.swift in Sources */,
+				CD97141428EB4D3C00A593D6 /* APIService.swift in Sources */,
+				CD9713CA28E359AD00A593D6 /* Offset.swift in Sources */,
+				CD97141D28EDDD9400A593D6 /* HomeModel.swift in Sources */,
+				CD9713D228E359AD00A593D6 /* PrayerModel.swift in Sources */,
+				CD9713C828E359AD00A593D6 /* Meta.swift in Sources */,
+				CD9713CC28E359AD00A593D6 /* Timings.swift in Sources */,
+				CDB7F2822914D13B00168165 /* NextPrayerViewController.swift in Sources */,
+				CD647AD5290F7FA500AC6809 /* Prayer.swift in Sources */,
+				CD14123A29026761001059FB /* MoreViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD76AFD328E1A057003A8254 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD76AFD428E1A057003A8254 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD76AFD828E1A059003A8254 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD76AFD928E1A059003A8254 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD76AFDC28E1A059003A8254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD76AFDD28E1A059003A8254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD76AFDF28E1A059003A8254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RHAX7Y6S58;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "din-e-islam/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsquad.din-e-islam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD76AFE028E1A059003A8254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RHAX7Y6S58;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "din-e-islam/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsquad.din-e-islam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD76AFC528E1A057003A8254 /* Build configuration list for PBXProject "din-e-islam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD76AFDC28E1A059003A8254 /* Debug */,
+				CD76AFDD28E1A059003A8254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD76AFDE28E1A059003A8254 /* Build configuration list for PBXNativeTarget "din-e-islam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD76AFDF28E1A059003A8254 /* Debug */,
+				CD76AFE028E1A059003A8254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD76AFC228E1A057003A8254 /* Project object */;
+}
